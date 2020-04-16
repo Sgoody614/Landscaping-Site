@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION */
+
+.active {
+    color: rgb(56, 102, 60) !important;
+}
+
+.bg-light {
+    background-color: rgba(204, 255, 204, 0.651) !important;
+}
+
+#logo-green {
+    width: 100px;
+    height: 100px;
+}
+
+.ml-auto {
+    padding-right: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+#nav-phone {
+    color:  rgb(56, 102, 60);
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    margin-right: 15px;
+}
+
+nav .navbar-nav li a:hover{
+    color: rgb(56, 102, 60) !important;
+    transition: .3s;
+}
+
+ul li {
+    color: white;
+}
+
+ul li a {
+    font-size: 30px;
+    color: white
+}
+
+
+/* HEADER SECTION */
+
+#section-header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.705), rgba(117, 19, 93, 0)), 
+    url("/images/LandscapeBackground.jpg");
+    background-color: bisque;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-title {
+    color: white;
+    text-align: center;
+    padding-top: 220px;
+}
+
+#header-title h1 {
+    font-size: 75px;
+}
+
+/* REUSABLE ELEMENTS */
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 2px solid gray;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 0 25px;
+    
+}
+
+/* ABOUT SECTION */
+#section-about {
+    background-color: rgb(229, 255, 226);
+    padding: 25px;
+}
+
+/* PRICING SECTION */
+
+#section-pricing {
+    padding-bottom: 25px;
+    background-color: rgb(193, 255, 187);
+}
+
+.card {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.card-body {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-hr {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.card ul li {
+    text-align: center;
+    color: black;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#promo-h4 {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 2px dashed red;
+    padding: 5px;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+/* TESTIMONIALS SECTION */
+
+#section-testimonials {
+    background-color: rgb(229, 255, 226);
+}
+
+.test-name {
+    text-align: right;
+    font-size: 20px;
+}
+
+blockquote {
+    font-size: 22px;
+
+}
+
+.test-col {
+    margin: 0 auto;
+}
+
+
+/* CONTACT SECTION */
+#section-contact {
+    background-color: rgb(193, 255, 187);
+    margin-bottom: 0px;
+}   
+
+.contact-p {
+text-align: center;
+font-size: 25px;
+padding: 0 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold!;
+}
+
+input {
+    padding: 5px 0;
+}
+
+input, textarea{
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+table {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#hours {
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: darkslategray;
+    margin-bottom: 0px;
+    margin: 0 auto;
+}
+.foot-p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+
+}
+
+/* QUERIES */
+@media screen and (max-width: 1024px) {
+
+    nav .navbar-nav li a {
+        color: white !important;
+        margin-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    table {
+        margin-bottom: 20px;
+    }
+
+    blockquote {
+        padding: 25px;
+    }
+
+}   
+
+@media screen and (max-width: 509px) {
+    
+    #nav-phone {
+        font-size: 30px;
+    }
+
+    #promo-h4 {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .contact-p {
+        font-size: 20px;
+    }
+
+    #header-title h1{
+        font-size: 40px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+
+}
